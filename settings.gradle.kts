@@ -1,4 +1,4 @@
 rootProject.name = "sing-khmer-keyboard"
 
-include("transliterator-core")
+include("transliterator-core", "transliterator-cli")
 
