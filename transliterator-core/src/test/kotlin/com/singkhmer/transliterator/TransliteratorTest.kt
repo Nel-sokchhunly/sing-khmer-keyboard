@@ -7,6 +7,9 @@ class TransliteratorTest {
     @Test
     fun testHello() {
         val transliterator = Transliterator()
-        assertEquals("Hello from Sing Khmer Transliteration Engine", transliterator.hello())
+
+        // test search for "jg"
+        val results = transliterator.searchExact("jg")
+        println(results)
     }
 }

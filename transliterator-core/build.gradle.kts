@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm")
+    application
 }
 
 repositories {
@@ -15,6 +16,10 @@ java {
 
 kotlin {
     jvmToolchain(21)
+}
+
+application {
+    mainClass.set("com.singkhmer.transliterator.MainKt")
 }
 
 dependencies {
