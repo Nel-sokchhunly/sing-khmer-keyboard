@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C3AB9B2E3F33A2004702D3 /* SingKhmerKeyboardExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 34C3AB942E3F33A2004702D3 /* SingKhmerKeyboardExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34C3ABAD2E3F3F71004702D3 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 34C3ABAC2E3F3F71004702D3 /* KeyboardKit */; };
+		34C3ABAF2E3F3F7E004702D3 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 34C3ABAE2E3F3F7E004702D3 /* KeyboardKit */; };
+		34C3ABB62E3F489F004702D3 /* KeyboardKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C3ABB52E3F4894004702D3 /* KeyboardKitConfig.swift */; };
+		34C3ABB72E3F48EC004702D3 /* KeyboardKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C3ABB52E3F4894004702D3 /* KeyboardKitConfig.swift */; };
+		34C3ABC62E3FC383004702D3 /* CustomActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C3ABC52E3FC37C004702D3 /* CustomActionHandler.swift */; };
+		34C3ABC72E3FC383004702D3 /* CustomActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C3ABC52E3FC37C004702D3 /* CustomActionHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34C3AB742E3F32E8004702D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C3AB5B2E3F32E6004702D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C3AB622E3F32E6004702D3;
+			remoteInfo = "ios-keyboard";
+		};
+		34C3AB7E2E3F32E8004702D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C3AB5B2E3F32E6004702D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C3AB622E3F32E6004702D3;
+			remoteInfo = "ios-keyboard";
+		};
+		34C3AB992E3F33A2004702D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C3AB5B2E3F32E6004702D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C3AB932E3F33A2004702D3;
+			remoteInfo = SingKhmerKeyboardExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34C3ABA02E3F33A2004702D3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				34C3AB9B2E3F33A2004702D3 /* SingKhmerKeyboardExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34C3AB632E3F32E6004702D3 /* SingKhmer Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SingKhmer Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C3AB732E3F32E8004702D3 /* ios-keyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-keyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C3AB7D2E3F32E8004702D3 /* ios-keyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-keyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C3AB942E3F33A2004702D3 /* SingKhmerKeyboardExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SingKhmerKeyboardExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C3ABB52E3F4894004702D3 /* KeyboardKitConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardKitConfig.swift; sourceTree = "<group>"; };
+		34C3ABC52E3FC37C004702D3 /* CustomActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActionHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		34C3AB9C2E3F33A2004702D3 /* Exceptions for "SingKhmerKeyboardExtension" folder in "SingKhmerKeyboardExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 34C3AB932E3F33A2004702D3 /* SingKhmerKeyboardExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		34C3AB652E3F32E6004702D3 /* ios-keyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-keyboard";
+			sourceTree = "<group>";
+		};
+		34C3AB762E3F32E8004702D3 /* ios-keyboardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-keyboardTests";
+			sourceTree = "<group>";
+		};
+		34C3AB802E3F32E8004702D3 /* ios-keyboardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-keyboardUITests";
+			sourceTree = "<group>";
+		};
+		34C3AB952E3F33A2004702D3 /* SingKhmerKeyboardExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				34C3AB9C2E3F33A2004702D3 /* Exceptions for "SingKhmerKeyboardExtension" folder in "SingKhmerKeyboardExtension" target */,
+			);
+			path = SingKhmerKeyboardExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C3AB602E3F32E6004702D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C3ABAD2E3F3F71004702D3 /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB702E3F32E8004702D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB7A2E3F32E8004702D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB912E3F33A2004702D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C3ABAF2E3F3F7E004702D3 /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C3AB5A2E3F32E6004702D3 = {
+			isa = PBXGroup;
+			children = (
+				34C3ABB52E3F4894004702D3 /* KeyboardKitConfig.swift */,
+				34C3ABC52E3FC37C004702D3 /* CustomActionHandler.swift */,
+				34C3AB652E3F32E6004702D3 /* ios-keyboard */,
+				34C3AB762E3F32E8004702D3 /* ios-keyboardTests */,
+				34C3AB802E3F32E8004702D3 /* ios-keyboardUITests */,
+				34C3AB952E3F33A2004702D3 /* SingKhmerKeyboardExtension */,
+				34C3AB642E3F32E6004702D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34C3AB642E3F32E6004702D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C3AB632E3F32E6004702D3 /* SingKhmer Keyboard.app */,
+				34C3AB732E3F32E8004702D3 /* ios-keyboardTests.xctest */,
+				34C3AB7D2E3F32E8004702D3 /* ios-keyboardUITests.xctest */,
+				34C3AB942E3F33A2004702D3 /* SingKhmerKeyboardExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C3AB622E3F32E6004702D3 /* SingKhmer Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C3AB872E3F32E8004702D3 /* Build configuration list for PBXNativeTarget "SingKhmer Keyboard" */;
+			buildPhases = (
+				34C3AB5F2E3F32E6004702D3 /* Sources */,
+				34C3AB602E3F32E6004702D3 /* Frameworks */,
+				34C3AB612E3F32E6004702D3 /* Resources */,
+				34C3ABA02E3F33A2004702D3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C3AB9A2E3F33A2004702D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34C3AB652E3F32E6004702D3 /* ios-keyboard */,
+			);
+			name = "SingKhmer Keyboard";
+			packageProductDependencies = (
+				34C3ABAC2E3F3F71004702D3 /* KeyboardKit */,
+			);
+			productName = "ios-keyboard";
+			productReference = 34C3AB632E3F32E6004702D3 /* SingKhmer Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34C3AB722E3F32E8004702D3 /* ios-keyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C3AB8A2E3F32E8004702D3 /* Build configuration list for PBXNativeTarget "ios-keyboardTests" */;
+			buildPhases = (
+				34C3AB6F2E3F32E8004702D3 /* Sources */,
+				34C3AB702E3F32E8004702D3 /* Frameworks */,
+				34C3AB712E3F32E8004702D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C3AB752E3F32E8004702D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34C3AB762E3F32E8004702D3 /* ios-keyboardTests */,
+			);
+			name = "ios-keyboardTests";
+			packageProductDependencies = (
+			);
+			productName = "ios-keyboardTests";
+			productReference = 34C3AB732E3F32E8004702D3 /* ios-keyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34C3AB7C2E3F32E8004702D3 /* ios-keyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C3AB8D2E3F32E8004702D3 /* Build configuration list for PBXNativeTarget "ios-keyboardUITests" */;
+			buildPhases = (
+				34C3AB792E3F32E8004702D3 /* Sources */,
+				34C3AB7A2E3F32E8004702D3 /* Frameworks */,
+				34C3AB7B2E3F32E8004702D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C3AB7F2E3F32E8004702D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34C3AB802E3F32E8004702D3 /* ios-keyboardUITests */,
+			);
+			name = "ios-keyboardUITests";
+			packageProductDependencies = (
+			);
+			productName = "ios-keyboardUITests";
+			productReference = 34C3AB7D2E3F32E8004702D3 /* ios-keyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		34C3AB932E3F33A2004702D3 /* SingKhmerKeyboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C3AB9D2E3F33A2004702D3 /* Build configuration list for PBXNativeTarget "SingKhmerKeyboardExtension" */;
+			buildPhases = (
+				34C3AB902E3F33A2004702D3 /* Sources */,
+				34C3AB912E3F33A2004702D3 /* Frameworks */,
+				34C3AB922E3F33A2004702D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34C3AB952E3F33A2004702D3 /* SingKhmerKeyboardExtension */,
+			);
+			name = SingKhmerKeyboardExtension;
+			packageProductDependencies = (
+				34C3ABAE2E3F3F7E004702D3 /* KeyboardKit */,
+			);
+			productName = SingKhmerKeyboardExtension;
+			productReference = 34C3AB942E3F33A2004702D3 /* SingKhmerKeyboardExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C3AB5B2E3F32E6004702D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					34C3AB622E3F32E6004702D3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					34C3AB722E3F32E8004702D3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34C3AB622E3F32E6004702D3;
+					};
+					34C3AB7C2E3F32E8004702D3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34C3AB622E3F32E6004702D3;
+					};
+					34C3AB932E3F33A2004702D3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 34C3AB5E2E3F32E6004702D3 /* Build configuration list for PBXProject "ios-keyboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C3AB5A2E3F32E6004702D3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				34C3ABAB2E3F3F71004702D3 /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34C3AB642E3F32E6004702D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C3AB622E3F32E6004702D3 /* SingKhmer Keyboard */,
+				34C3AB722E3F32E8004702D3 /* ios-keyboardTests */,
+				34C3AB7C2E3F32E8004702D3 /* ios-keyboardUITests */,
+				34C3AB932E3F33A2004702D3 /* SingKhmerKeyboardExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C3AB612E3F32E6004702D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB712E3F32E8004702D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB7B2E3F32E8004702D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB922E3F33A2004702D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C3AB5F2E3F32E6004702D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C3ABB62E3F489F004702D3 /* KeyboardKitConfig.swift in Sources */,
+				34C3ABC62E3FC383004702D3 /* CustomActionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB6F2E3F32E8004702D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB792E3F32E8004702D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C3AB902E3F33A2004702D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C3ABC72E3FC383004702D3 /* CustomActionHandler.swift in Sources */,
+				34C3ABB72E3F48EC004702D3 /* KeyboardKitConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C3AB752E3F32E8004702D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C3AB622E3F32E6004702D3 /* SingKhmer Keyboard */;
+			targetProxy = 34C3AB742E3F32E8004702D3 /* PBXContainerItemProxy */;
+		};
+		34C3AB7F2E3F32E8004702D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C3AB622E3F32E6004702D3 /* SingKhmer Keyboard */;
+			targetProxy = 34C3AB7E2E3F32E8004702D3 /* PBXContainerItemProxy */;
+		};
+		34C3AB9A2E3F33A2004702D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C3AB932E3F33A2004702D3 /* SingKhmerKeyboardExtension */;
+			targetProxy = 34C3AB992E3F33A2004702D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34C3AB852E3F32E8004702D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34C3AB862E3F32E8004702D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C3AB882E3F32E8004702D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ZKMSG7Z579;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34C3AB892E3F32E8004702D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ZKMSG7Z579;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34C3AB8B2E3F32E8004702D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-keyboard";
+			};
+			name = Debug;
+		};
+		34C3AB8C2E3F32E8004702D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-keyboard";
+			};
+			name = Release;
+		};
+		34C3AB8E2E3F32E8004702D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-keyboard";
+			};
+			name = Debug;
+		};
+		34C3AB8F2E3F32E8004702D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-keyboard";
+			};
+			name = Release;
+		};
+		34C3AB9E2E3F33A2004702D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKMSG7Z579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SingKhmerKeyboardExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SingKhmer;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboard.SingKhmerKeyboardExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34C3AB9F2E3F33A2004702D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZKMSG7Z579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SingKhmerKeyboardExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SingKhmer;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singkhmer.ios-keyboard.SingKhmerKeyboardExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C3AB5E2E3F32E6004702D3 /* Build configuration list for PBXProject "ios-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C3AB852E3F32E8004702D3 /* Debug */,
+				34C3AB862E3F32E8004702D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C3AB872E3F32E8004702D3 /* Build configuration list for PBXNativeTarget "SingKhmer Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C3AB882E3F32E8004702D3 /* Debug */,
+				34C3AB892E3F32E8004702D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C3AB8A2E3F32E8004702D3 /* Build configuration list for PBXNativeTarget "ios-keyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C3AB8B2E3F32E8004702D3 /* Debug */,
+				34C3AB8C2E3F32E8004702D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C3AB8D2E3F32E8004702D3 /* Build configuration list for PBXNativeTarget "ios-keyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C3AB8E2E3F32E8004702D3 /* Debug */,
+				34C3AB8F2E3F32E8004702D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C3AB9D2E3F33A2004702D3 /* Build configuration list for PBXNativeTarget "SingKhmerKeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C3AB9E2E3F33A2004702D3 /* Debug */,
+				34C3AB9F2E3F33A2004702D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34C3ABAB2E3F3F71004702D3 /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34C3ABAC2E3F3F71004702D3 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34C3ABAB2E3F3F71004702D3 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+		34C3ABAE2E3F3F7E004702D3 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34C3ABAB2E3F3F71004702D3 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34C3AB5B2E3F32E6004702D3 /* Project object */;
+}
